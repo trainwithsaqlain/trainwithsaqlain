@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coach Saqlain | Personal trainer in Kolhapur</title>
+<meta name="description" content="Certified Gold’s Gym trainer in Kolhapur with 5+ years of experience. Fat loss, strength and pain-free mobility for busy professionals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F7F7;--card:#fff;--ink:#14161D;--mute:#5B616B;--line:#E1E3E6;--navy:#1D202C;--ni:#F2F3F5;--nm:#A9AFBC;--acc:#3556FF;--ai:#fff;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1117;--card:#171A23;--ink:#F2F3F5;--mute:#9AA1AD;--line:#262B36;--acc:#6C86FF;--ai:#0B0E1A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1117;--card:#171A23;--ink:#F2F3F5;--mute:#9AA1AD;--line:#262B36;--acc:#6C86FF;--ai:#0B0E1A;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(88px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:17px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+a{color:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.w{max-width:1200px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
+.brand{font-weight:800;font-stretch:78%;font-size:24px;text-decoration:none}
+nav{display:flex;gap:30px;font-weight:500;font-size:16px}
+nav a{text-decoration:none;color:var(--mute)}
+nav a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--acc);color:var(--ai);font:inherit;font-weight:700;text-decoration:none;padding:14px 26px;border:0;border-radius:999px;cursor:pointer}
+.btn:hover{filter:brightness(1.1)}
+.btn.sm{padding:11px 20px;font-size:15px}
+.btn.ghost{background:transparent;color:var(--ni);box-shadow:inset 0 0 0 1.5px #4A4F61}
+.btn.ghost:hover{box-shadow:inset 0 0 0 1.5px var(--ni);filter:none}
+.hero{background:var(--navy);color:var(--ni);border-radius:28px;margin-top:20px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,64px);align-items:center}
+h1{margin:0 0 20px;font-size:clamp(42px,6.6vw,88px);font-weight:850;font-stretch:72%;line-height:.94;text-wrap:balance}
+.hero p.l{margin:0 0 30px;max-width:30em;color:var(--nm);font-size:clamp(17px,1.8vw,20px)}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px}
+.chips div{background:#272B3A;border-radius:16px;padding:14px 16px;font-weight:700;line-height:1.25}
+.chips span{display:block;margin-top:4px;font-weight:400;font-size:14px;color:var(--nm)}
+.hero img{display:block;width:100%;height:auto;border-radius:20px}
+.tick{overflow:hidden;margin:28px 0 0;border-block:1px solid var(--line);padding:16px 0}
+.track{display:flex;width:max-content;gap:48px;animation:slide 32s linear infinite;font-weight:800;font-stretch:75%;font-size:28px;color:var(--mute)}
+.track span{white-space:nowrap}
+.track span::after{content:"/";margin-left:48px;color:var(--acc)}
+@keyframes slide{to{transform:translateX(calc(-50% - 24px))}}
+section{padding:clamp(56px,8vw,104px) 0 0}
+h2{margin:0 0 12px;font-size:clamp(32px,4.6vw,54px);font-weight:800;font-stretch:78%;line-height:1;text-wrap:balance}
+.sub{margin:0 0 36px;color:var(--mute);max-width:34em}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;display:flex;flex-direction:column}
+.card h3{margin:0 0 8px;font-size:26px;font-weight:750;font-stretch:88%;line-height:1.1}
+.card>p{margin:0 0 18px;color:var(--mute)}
+.card ul{margin:0 0 24px;padding:0;list-style:none;display:grid;gap:10px}
+.card li{padding-left:26px;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:.5em;width:12px;height:7px;border-left:2.5px solid var(--acc);border-bottom:2.5px solid var(--acc);transform:rotate(-45deg)}
+.card a{margin-top:auto;font-weight:700;color:var(--acc);text-underline-offset:5px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+.step{border-top:2px solid var(--ink);padding-top:18px}
+.step::before{counter-increment:s;content:"Step " counter(s);display:block;color:var(--acc);font-weight:700;margin-bottom:8px}
+.step h3{margin:0 0 6px;font-size:24px;font-weight:750;font-stretch:88%}
+.step p{margin:0;color:var(--mute)}
+.about{background:var(--navy);color:var(--ni);border-radius:28px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,5vw,64px)}
+.about h2{margin:0}
+.about p{margin:0 0 16px;color:var(--nm);max-width:34em}
+.about blockquote{margin:24px 0 0;padding-left:20px;border-left:3px solid var(--acc);font-size:clamp(20px,2.4vw,26px);font-weight:600;font-stretch:90%;line-height:1.3;color:var(--ni)}
+.faq{max-width:820px}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;padding:22px 0;font-weight:700;font-size:19px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:28px;line-height:1;color:var(--acc);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin:0 0 22px;color:var(--mute);max-width:36em}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,64px);align-items:start}
+.ci a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.ci a:first-of-type{border-top:1px solid var(--line)}
+.ci small{color:var(--mute);font-size:15px}
+.ci b{font-size:clamp(18px,2.4vw,24px);font-weight:700;overflow-wrap:anywhere;text-align:right}
+.ci a:hover b{color:var(--acc)}
+form{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;display:grid;gap:16px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px}
+input,select,textarea{font:inherit;font-weight:400;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:13px 14px;width:100%}
+textarea{min-height:96px;resize:vertical}
+footer{margin-top:clamp(56px,8vw,104px);border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mute);font-size:15px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px}
+@media(max-width:900px){
+ nav{display:none}
+ .hero,.about,.contact{grid-template-columns:1fr}
+ .cards,.steps{grid-template-columns:1fr}
+ .chips{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){.track{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+ <div class="w bar">
+  <a class="brand" href="#top">Coach Saqlain</a>
+  <nav aria-label="Main"><a href="#programs">Programs</a><a href="#how">How it works</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+  <a class="btn sm" href="https://wa.me/917755995272">Talk to Coach</a>
+ </div>
+</header>
+
+<main id="top" class="w">
+ <div class="hero">
+  <div>
+   <h1>Smart training. Pain-free strength.</h1>
+   <p class="l">One-on-one coaching in Kolhapur for busy professionals who want to get lean, build strength and move better.</p>
+   <div class="cta">
+    <a class="btn" href="https://wa.me/917755995272">Get started on WhatsApp</a>
+    <a class="btn ghost" href="tel:+917755995272">Call now</a>
+   </div>
+   <div class="chips">
+    <div>5+ years<span>coaching experience</span></div>
+    <div>Gold’s Gym<span>certified trainer</span></div>
+    <div>Kolhapur<span>train with me in person</span></div>
+   </div>
+  </div>
+  <img src="__PHOTO__" width="1100" height="1100" alt="Coach Saqlain flexing both arms in a front double biceps pose in the gym, wearing a black tank top and a leather lifting belt">
+ </div>
+
+ <div class="tick" aria-hidden="true">
+  <div class="track">
+   <span>Fat loss</span><span>Strength training</span><span>Muscle building</span><span>Mobility</span><span>Posture</span><span>Lean and fit</span>
+   <span>Fat loss</span><span>Strength training</span><span>Muscle building</span><span>Mobility</span><span>Posture</span><span>Lean and fit</span>
+  </div>
+ </div>
+
+ <section id="programs">
+  <h2>Your perfect program starts with your goal</h2>
+  <p class="sub">Pick what matters most right now. We’ll shape the plan around your body, your schedule and your gym.</p>
+  <div class="cards">
+   <article class="card">
+    <h3>Fat loss and lean build</h3>
+    <p>Lose fat without crash diets or endless cardio.</p>
+    <ul><li>Training that fits your work week</li><li>Practical food guidance</li><li>Progress you can measure</li></ul>
+    <a href="https://wa.me/917755995272?text=Hi%20Coach%20Saqlain%2C%20I%27m%20interested%20in%20fat%20loss%20coaching." data-goal>Enquire on WhatsApp</a>
+   </article>
+   <article class="card">
+    <h3>Strength and muscle</h3>
+    <p>Get stronger and build muscle with coached lifts.</p>
+    <ul><li>Form coached on every lift</li><li>Progressive plan, session to session</li><li>Built around your recovery</li></ul>
+    <a href="https://wa.me/917755995272?text=Hi%20Coach%20Saqlain%2C%20I%27m%20interested%20in%20strength%20and%20muscle%20coaching.">Enquire on WhatsApp</a>
+   </article>
+   <article class="card">
+    <h3>Pain-free mobility</h3>
+    <p>Move better and train around everyday niggles.</p>
+    <ul><li>Joint-friendly exercise choices</li><li>Mobility work that carries over</li><li>Better posture for desk days</li></ul>
+    <a href="https://wa.me/917755995272?text=Hi%20Coach%20Saqlain%2C%20I%27m%20interested%20in%20mobility%20and%20pain-free%20strength.">Enquire on WhatsApp</a>
+   </article>
+  </div>
+ </section>
+
+ <section id="how">
+  <h2>How it works</h2>
+  <p class="sub">Three simple steps from first message to first session.</p>
+  <div class="steps">
+   <div class="step"><h3>Send a message</h3><p>Tell me your goal and what your week looks like. WhatsApp is the fastest way.</p></div>
+   <div class="step"><h3>Quick assessment</h3><p>We talk through your goals, training history and any aches, then check how you move.</p></div>
+   <div class="step"><h3>Train with a plan</h3><p>You get a plan built around you, with form coached from the first rep.</p></div>
+  </div>
+ </section>
+
+ <section id="about">
+  <div class="about">
+   <h2>Meet Coach Saqlain</h2>
+   <div>
+    <p>I’m a certified Gold’s Gym trainer in Kolhapur with over five years of experience helping people build strength, lose fat and move with confidence.</p>
+    <p>My focus is practical coaching for busy professionals: good form first, steady progress and a plan you can keep up with a full work week.</p>
+    <blockquote>Strong should never mean sore for weeks. Train hard, move well, stay consistent.</blockquote>
+   </div>
+  </div>
+ </section>
+
+ <section id="faq">
+  <h2>Common questions</h2>
+  <div class="faq" style="margin-top:28px">
+   <details><summary>I’m a complete beginner. Is that okay?</summary><p>Yes. We start with the basics and build confidence with good form before adding load.</p></details>
+   <details><summary>I’m busy. How often do I need to train?</summary><p>Tell me which days you can realistically train and I’ll plan around that, rather than the other way round.</p></details>
+   <details><summary>I have aches or an old injury. Can you help?</summary><p>I choose exercises that work around everyday niggles. I’m not a doctor or physio, so for ongoing pain or an injury, please get medical advice first.</p></details>
+   <details><summary>How do I get started?</summary><p>Message me on WhatsApp or use the form below. I’ll reply to talk through your goal and next steps.</p></details>
+  </div>
+ </section>
+
+ <section id="contact">
+  <div class="contact">
+   <div>
+    <h2>Let’s get you started</h2>
+    <p class="sub">Reach out any way you like. WhatsApp is the quickest.</p>
+    <div class="ci">
+     <a href="https://wa.me/917755995272"><small>WhatsApp</small><b>+91 77559 95272</b></a>
+     <a href="tel:+917755995272"><small>Call</small><b>+91 77559 95272</b></a>
+     <a href="mailto:trainwithsaqlain@gmail.com"><small>Email</small><b>trainwithsaqlain@gmail.com</b></a>
+     <a href="https://www.instagram.com/trainwithsaqlain" target="_blank" rel="noopener"><small>Instagram</small><b>@trainwithsaqlain</b></a>
+    </div>
+   </div>
+   <form id="f">
+    <label>Your name<input id="n" autocomplete="name" required></label>
+    <label>Your goal<select id="g"><option>Fat loss</option><option>Strength and muscle</option><option>Pain-free mobility</option><option>Not sure yet</option></select></label>
+    <label>Message (optional)<textarea id="m"></textarea></label>
+    <button class="btn" type="submit">Send on WhatsApp</button>
+   </form>
+  </div>
+ </section>
+</main>
+
+<footer class="w">
+ <span>Coach Saqlain, certified Gold’s Gym trainer, Kolhapur</span>
+ <span>© 2026</span>
+</footer>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+ e.preventDefault();
+ var t='Hi Coach Saqlain, I’m '+document.getElementById('n').value+'. My goal: '+document.getElementById('g').value+'.';
+ var m=document.getElementById('m').value.trim();
+ if(m)t+=' '+m;
+ window.open('https://wa.me/917755995272?text='+encodeURIComponent(t),'_blank','noopener');
+});
+</script>
+</body>
+</html>
